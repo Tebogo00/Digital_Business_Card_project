@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    font-size: medium;
+    margin-right: auto;
+    box-sizing: border-box;
+    transition: all 2s linear;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color:rgb(238, 195, 195);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.qr--scanner {
+    width: 640px;
+    height: 360px;
+    position: relative ;
+}
+
+#qr--code {
+    padding-left: 100px
+}
+
+#profile {
+    display: none;
+}
+
