@@ -1,7 +1,7 @@
 body{
     background: #58514c3c; 
     background: -webkit-linear-gradient(to right, #4c514e, #8ea09f90); 
-    background: linear-gradient(to right, #7b827e, #2fa99f); 
+    background: linear-gradient(to right, #7b827e, #f5a6b1); 
 }
 
 .card {
@@ -24,7 +24,7 @@ body{
     top: -30px;
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(92, 88, 88, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: linear-gradient(to right, #8f9c99, #299bb8);
+    background-image: linear-gradient(to right, #e6eee9, #ed6caa);
 }
 
 .header img {
@@ -38,8 +38,8 @@ body{
 
 .header h3 {
     position: absolute;
-    font-family: sans-serif;
-    color: rgb(86, 81, 81);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(5, 1, 1);
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -51,7 +51,7 @@ body{
     position: absolute;
     font-family: sans-serif;
     font-weight: bold;
-    color: rgb(66, 61, 61);
+    color: rgb(3, 2, 2);
     font-size: 1em;
     top: 200px;
     left: 50px
@@ -97,7 +97,7 @@ i {
 .body ul li h3 {
     top: -17px;
     left: 58px;
-    color: #857c77;
+    color: #34302e;
     
 }
 
@@ -133,7 +133,7 @@ i {
 }
 
 .body li:hover {
-    background-color: #907e8d;
+    background-color: #2590ba;
     cursor: pointer;
 }
 
@@ -152,7 +152,7 @@ i {
     width:95%;
     margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: linear-gradient(to right, #848e8b, #1a7ebc);
+    background-image: linear-gradient(to right, #9f7dab, #bc1ab9);
 }
 
 .footer ul {
@@ -185,4 +185,8 @@ i {
 
   .credit{
     text-align: center;
+  }
+
+  ul {
+     list-style: none;
   }
